@@ -46,6 +46,16 @@ color:black;
 border:none;
 }
 
+.btn-primary.active.focus, .btn-primary.active:focus, 
+.btn-primary.active:hover, .btn-primary.focus:active, 
+.btn-primary:active:focus, .btn-primary:active:hover, 
+.open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open >
+ .dropdown-toggle.btn-primary:hover{
+background:#9b9b9b;
+color:black;
+border:none;
+}
+
 .dropdown{
 	margin: 0;
 	position: absolute;
