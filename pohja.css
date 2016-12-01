@@ -8,6 +8,7 @@ h2,h3{
 .tiedot{
 	display:block;
 	margin:0;
+    margin-top:3em;
 }
 
 .content{
