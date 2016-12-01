@@ -46,6 +46,13 @@ color:black;
 border:none;
 }
 
+.btn-primary.focus,
+.btn-primary:focus{
+  background:black;
+border:none;
+color:white;
+}
+
 .btn-primary.active.focus, .btn-primary.active:focus, 
 .btn-primary.active:hover, .btn-primary.focus:active, 
 .btn-primary:active:focus, .btn-primary:active:hover, 
