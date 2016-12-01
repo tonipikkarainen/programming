@@ -24,6 +24,26 @@ header h1{
     top: 50%;
     transform: translateY(-50%);
     float:left;
+    margin-left:20%;
+}
+
+
+.dropdown-toggle{
+
+background:black;
+border:none;
+}
+
+.dropdown-toggle:hover{
+background:white;
+color:black;
+border:none;
+}
+
+.dropdown-toggle:active{
+background:#9b9b9b;
+color:black;
+border:none;
 }
 
 .dropdown{
@@ -32,6 +52,7 @@ header h1{
     top: 50%;
     transform: translateY(-50%);
     float:left;
+    margin-left:5%;
 }
 
 .content{
