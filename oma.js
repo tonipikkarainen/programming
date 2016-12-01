@@ -6,7 +6,7 @@ window.onload=function(){
 	
 	var kotiLi = document.createElement("li");
 	var kotiA = document.createElement("a");
-	kotiA.setAttribute("href","index.html");
+	kotiA.setAttribute("href","/programming/index.html");
 	kotiLi.appendChild(kotiA);
 	
 	lista.appendChild(kotiLi);
@@ -15,7 +15,7 @@ window.onload=function(){
     
     var listaWeb=document.createElement("li");
     var listaWebA = document.createElement("a");
-    listaWebA.setAttribute("href","websovellukset/websovellukset.html");
+    listaWebA.setAttribute("href","/programming/websovellukset/websovellukset.html");
     listaWebA.textContent="Websovellukset";
     listaWeb.appendChild(listaWebA);
     
