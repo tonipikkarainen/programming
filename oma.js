@@ -19,6 +19,8 @@ window.onload=function(){
     listaWebA.textContent="Websovellukset";
     listaWeb.appendChild(listaWebA);
     
+    lista.appendChild(listaWeb);
+    
     
     
     /*for(var i=0 ; i<9 ; i++){
