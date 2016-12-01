@@ -40,8 +40,11 @@ body{
 img{
 	
 	width:100%;
-
 	margin-bottom:5%;
+}
+
+figcaption{
+    margin-bottom:2em;
 }
 a{
 	color:blue;
