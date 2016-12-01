@@ -21,6 +21,22 @@ window.onload=function(){
     
     lista.appendChild(listaWeb);
     
+    var listaOhj1=document.createElement("li");
+    var listaOhj1A = document.createElement("a");
+    listaWebA.setAttribute("href","/programming/ohjelmointi1/ohjelmointi1.html");
+    listaWebA.textContent="Ohjelmointi 1";
+    listaWeb.appendChild(listaOhj1A);
+    
+    lista.appendChild(listaOhj1);
+    
+    var listaOhj2=document.createElement("li");
+    var listaOhj2A = document.createElement("a");
+    listaWebA.setAttribute("href","/programming/ohjelmointi2/ohjelmointi2.html");
+    listaWebA.textContent="Ohjelmointi 2";
+    listaWeb.appendChild(listaOhj2A);
+    
+    lista.appendChild(listaOhj2);
+    
     
     
     /*for(var i=0 ; i<9 ; i++){
