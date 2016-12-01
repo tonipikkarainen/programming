@@ -11,6 +11,28 @@ h2,h3{
     margin-top:3em;
 }
 
+header{
+    height:7em;
+    background:black;
+    color:white;
+}
+
+header h1{
+    margin: 0;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float:left;
+}
+
+.dropdown{
+	margin: 0;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float:left;
+}
+
 .content{
 	margin:auto;
 	width:80%;
@@ -34,10 +56,7 @@ body{
     background: linear-gradient(#e99b63, #43210a); /* Standard syntax */
     height:100%;
 }
-.dropdown{
-	margin-top: 3em;
-	margin-left:3em;
-}
+
 img{
 	
 	width:100%;
