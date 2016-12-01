@@ -56,6 +56,12 @@ color:black;
 border:none;
 }
 
+btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    background:#9b9b9b;
+color:black;
+border:none;
+}
+
 .dropdown{
 	margin: 0;
 	position: absolute;
