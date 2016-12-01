@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> TIEA218 </title>
+  <meta charset="UTF-8" />
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="../pohja.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../oma.js"></script>
+</head>
+
+
+<body>
+<header>
+ <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Oppimistehtävät
+  <span class="caret"></span></button>
+  <ul id="dropLista" class="dropdown-menu">
+  
+
+  </ul>
+</div>
+</header>
+<div class="content">
+<h1>TIEA218 (Web-sovellukset) -kurssin viikkotehtäviä</h1>
+<h4>Tekijä: Toni Pikkarainen</h4>
+<div class="tiedot">
+
+<a
+href="mailto:toni.t.pikkarainen@student.jyu.fi">toni.t.pikkarainen@student.jyu.fi</a>
+
+<h2>Viikkotehtävä 1: HTML5 ja CSS3</h2>
+<p>Tehtävänä oli toteuttaa ulkoasultaan ao. kuvan mukainen web-sivu. Linkkien
+ei tarvinnut toimia eikä muutakaan toiminnallisuutta tarvinnut toteuttaa. Lähinnä
+huomio kohdistettiin asemointiin, oikeisiin väreihin ja fontteihin. Sivu on myös
+responsiivinen eli selainikkunan leveyden mennessä tarpeeksi pieneksi, vasen navigointipalkki
+siirretään sivun alaosaan.</p>
+<img class="kuva" src="taso5_2016.png">
+<p><a href="https://tonipikkarainen.github.io/TIEA218VT1/">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT1">Lähdekoodi</a></p>
+<p>Arvosana: 5</p>
+
+<h2>Viikkotehtävä 2: Javascript ja DOM</h2>
+<p>Tehtävänä oli toteuttaa javascriptillä <a href="https://fi.wikipedia.org/wiki/Halma">Halma-peli.</a>
+Toteutuksessa ei saanut käyttää mitään ulkoisia kirjastoja (esim. jQuery, AngularJS...) eikä myöskään
+kutsua mitään palvelimelle tehtyjä sovelluksia. Myöskään annettua yksinkertaista HTML-pohjaa ei
+saanut muokata vain kaikki muutokset piti tehdä manipuloimalla DOM:ia javascriptillä.
+</p>
+<p><a href="https://tonipikkarainen.github.io/TIEA218VT2/">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT2">Lähdekoodi</a></p>
+<p>Arvosana: 4</p>
+<h2>Viikkotehtävä 3: Python ja CGI-ohjelmointi</h2>
+<p> Tehtävänä oli toteuttaa python-kielellä CGI (rajapinta web-sovelluksien tekemiseen) -ohjelma, joka luo viikkotehtävä 2:n mukaisen
+ruudukon. Pelin logiikkaa ei tarvinnut toteuttaa, riitti, että nappuloita voi siirrellä
+ruudusta toiseen. Nappulat sai myös sijoittaa ruudukon vasempaan ja oikeaan reunaan.</p>
+<p>Tehtävässä oli tarkoituksena ymmärtää HTTP-protokollan tilattomuus ja kiertää tätä 
+sopivilla keinoilla. Tiedostoon ei saanut tallentaa mitään, eikä käyttää evästeitä ja
+sessioita.</p>
+<p>Web-sivun tila pidetään toteutuksessa yllä piilokenttien avulla ja viemällä 
+ohjelmaa uudestaan kutsuvissa linkeissä ohjelmalle sopivia parametreja.</p>
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt3.cgi">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT3">Lähdekoodi</a></p>
+<p>Arvosana: 5</p>
+
+<h2>Viikkotehtävä 4: Flask, sessiot ja tietokannat</h2>
+<p>Tehtävänä oli toteuttaa videovuokraamon käyttöliittymä python-kielisenä
+flask-sovelluksena. Tietojen tallentamiseen käytetään palvelimella
+olevaa SQLite3-tietokantaa. Nyt sovelluksessa sai käyttää myös sessioita.</p>
+<p>Käyttöliittymässä voi tällä hetkellä lisätä vuokrauksia, lisätä elokuvia,
+poistaa elokuvia ja muokata elokuvia. Lisäksi elokuvia voi listata näkymään
+eri ominaisuuksien perusteella järjestettynä (arvio, hinta, julkaisuvuosi, vuokrausmäärä).</p>
+<p>Kirjautuminen:</p>
+<p>käyttäjätunnus: tiea218@foobar.example</p>
+<p>salasana: tiea218</p>
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt4/flask.cgi/kirjaudu">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT4">Lähdekoodi</a></p>
+<p>Arvosana: 5</p>
+
+<h2>Viikkotehtävä 5: Ajax ja jQuery</h2>
+<p>Toteutettiin edellisviikon videovuokraamon käyttöliittymä yhden sivun web-sovellukset.
+ Asiakaspäässä toteutukseen käytettiin jQuery-kirjastoa ja tiedot haettiin ja päivitettiin
+ palvelimelta/palvelimelle AJAX (Asynchronous JavaScript and XML) -kutsuilla.</p>
+<p>Tietokantana oli edelleen relaatiotietokanta ja tietokannan hallintajärjestelmänä SQLite3.
+Ohjelmointikielenä python.</p>
+<p>Kirjautuminen:</p>
+<p>käyttäjätunnus: tiea218@foobar.example</p>
+<p>salasana: tiea218</p>
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt5/flask.cgi/etusivu">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT5">Lähdekoodi</a></p>
+<p>Arvosana: 5</p>
+
+<h2>Viikkotehtävä 6: web2py ja Google App Engine</h2>
+<p>Toteutettiin edelleen sama videovuokraamon käyttöliittymä, mutta nyt se tehtiin
+web2py-sovelluskehyksen avulla. Sovellus julkaistiin Google App Enginellä, joka on
+Googlen tarjoama pilvipalvelualusta web-sovellusten kehittämiseen ja julkaisuun. Ulkoasun
+luomisessa on hyödynnetty Bootstrap-kirjastoa. Ohjelmointikielenä python.</p>
+<p>Tietokantana oli Googlen tarjoama NoSQL-tietokanta. Tässä tehtävässä joutui tietokantakyselyitä siis
+muodostamaan ohjelmallisesti, koska kaikki relaatiotietokannassa toimivat SQL-lauseet (esim. join)
+eivät tässä tapauksessa toimineetkaan.</p>
+<p>Kirjautuminen:</p>
+<p>Google tunnuksilla.</p>
+
+<p><a href="http://toninvideovuokraamo.appspot.com/vuokraukset">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT6">Lähdekoodi</a></p>
+<p>Arvosana: 4</p>
+
+<h2>Viikkotehtävä 7: React.js</h2>
+<p>Tässä tehtävässä toteutettiin vielä videovuokraamon käyttöliittymä React.js-sovelluksena.
+ Yksi Reactin tavoite on tehdä mahdollisimman yleiskäyttöisiä komponentteja.
+Tässä tehtävässä sain tehtyä yleiskäyttöisen select-komponentin, jolle viedään halutut
+propsit tilanteesta riippuen. Tein myös yleiskäyttöisen vuokraajan lisäys -komponentin, 
+jota tehtävässä on käytetty myös vuokraajan muokkaamiseen.</p>
+<p>Tässä tehtävässä ainoastaan haetaan data tietokannasta eli mitään päivityksiä ei
+työnnetä takaisin palvelimelle. Tiedot haetaan palvelimelta AJAXilla käyttäen
+jQuery-kirjastoa. Käyttäjän kannalta näyttää, että muutokset tallentuvat palvelimelle, 
+sillä muutokset tallennetaan selaimen localStorageen.</p>
+
+<p><a href="http://users.jyu.fi/~totapikk/cgi-bin/vt7/flask.cgi/vuokraamo">TOTEUTUS</a></p>
+<p><a href="https://github.com/tonipikkarainen/TIEA218VT7">Lähdekoodi</a></p>
+
+
+
+</div>
+</div>
+
+
+</body>
+</html>
