@@ -15,6 +15,7 @@ header{
     height:7em;
     background:black;
     color:white;
+    position:relative;
 }
 
 header h1{
