@@ -1,4 +1,4 @@
-/* Automaatisoidaan navigointilistan päivitykset, kun tehdään uusia sivuja
+/* TODO: Automatisoidaan navigointilistan päivitykset, kun tehdään uusia sivuja
 Eli täytyy muuttaa vain silmukan kokoa*/
 
 window.onload=function(){
@@ -11,8 +11,25 @@ window.onload=function(){
 	
 	lista.appendChild(kotiLi);
 	//kotiA.setAttribute("value","Koti");
-	kotiA.textContent = "Koti";
-    
+  kotiA.textContent = "Koti";
+  function luoLinkki(s1,s2,lista){
+    var luoLi=document.createElement("li");
+    var luoA = document.createElement("a");
+    luoA.setAttribute("href",s1);
+    luoA.textContent=s2;
+    luoLi.appendChild(luoA);
+    lista.appendChild(luoLi);
+  }
+
+  luoLinkki("https://kirjanpitouusi.appspot.com/","Kirjanpito (2018)",lista)
+    /*var listaKir=document.createElement("li");
+    var listaKirA = document.createElement("a");
+    listaKirA.setAttribute("href","https://kirjanpitouusi.appspot.com/");
+    listaKirA.textContent="Kirjanpito (2018)";
+    listaKir.appendChild(listaKirA);  
+
+    lista
+
     var listaWeb=document.createElement("li");
     var listaWebA = document.createElement("a");
     listaWebA.setAttribute("href","/programming/websovellukset/websovellukset.html");
@@ -35,9 +52,9 @@ window.onload=function(){
     listaOhj2A.textContent="Ohjelmointi 2";
     listaOhj2.appendChild(listaOhj2A);
     
-    lista.appendChild(listaOhj2);
+    lista.appendChild(listaOhj2);*/
     
-    
+   
     
     /*for(var i=0 ; i<9 ; i++){
 		var luku = i+1;
