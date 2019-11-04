@@ -22,6 +22,7 @@ window.onload=function(){
   }
 
   luoLinkki("https://kirjanpitouusi.appspot.com/","Kirjanpito (2018)",lista)
+  luoLinkki("https://resepti-toni.appspot.com/","Reseptit (2019)",lista)
     /*var listaKir=document.createElement("li");
     var listaKirA = document.createElement("a");
     listaKirA.setAttribute("href","https://kirjanpitouusi.appspot.com/");
